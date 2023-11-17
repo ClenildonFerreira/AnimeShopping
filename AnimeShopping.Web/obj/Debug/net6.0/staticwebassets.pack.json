@@ -253,6 +253,558 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\DCO.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\DCO.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\LICENSE-MIT",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\README.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\dist\\cldr.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\dist\\cldr.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\dist\\cldr\\event.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\dist\\cldr\\event.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\dist\\cldr\\supplemental.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\dist\\cldr\\supplemental.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\dist\\cldr\\unresolved.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\dist\\cldr\\unresolved.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\dist\\node_main.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\dist\\node_main.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\core\\attributes.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\core\\attributes.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\core\\constructor.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\core\\constructor.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\core\\get.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\core\\get.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\core\\load.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\core\\load.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\core\\main.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\core\\main.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\event\\event_get.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\event\\event_get.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\event\\global_off.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\event\\global_off.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\event\\global_on.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\event\\global_on.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\event\\global_once.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\event\\global_once.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\event\\off.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\event\\off.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\event\\on.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\event\\on.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\event\\once.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\event\\once.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\supplemental.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\supplemental.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\supplemental\\time_data_allowed.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\supplemental\\time_data_allowed.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\supplemental\\time_data_preferred.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\supplemental\\time_data_preferred.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\supplemental\\week_data_first_day.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\supplemental\\week_data_first_day.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\supplemental\\week_data_min_days.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\supplemental\\week_data_min_days.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\api\\unresolved\\get.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\api\\unresolved\\get.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\asset\\jquery.png",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\asset\\jquery.png"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\doc\\bundle_lookup_matcher.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\doc\\bundle_lookup_matcher.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\cldrjs\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\cldrjs\\package.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\CONTRIBUTING.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\CONTRIBUTING.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\README.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize-runtime.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize-runtime.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize-runtime\\currency.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize-runtime\\currency.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize-runtime\\date.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize-runtime\\date.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize-runtime\\message.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize-runtime\\message.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize-runtime\\number.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize-runtime\\number.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize-runtime\\plural.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize-runtime\\plural.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize-runtime\\relative-time.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize-runtime\\relative-time.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize-runtime\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize-runtime\\unit.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize\\currency.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize\\currency.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize\\date.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize\\date.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize\\message.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize\\message.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize\\number.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize\\number.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize\\plural.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize\\plural.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize\\relative-time.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize\\relative-time.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\globalize\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\globalize\\unit.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\dist\\node-main.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\dist\\node-main.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\core\\constructor.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\core\\constructor.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\core\\load.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\core\\load.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\core\\locale.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\core\\locale.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\currency\\currency-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\currency\\currency-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\currency\\currency-to-parts-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\currency\\currency-to-parts-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\date\\date-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\date\\date-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\date\\date-parser.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\date\\date-parser.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\date\\date-to-parts-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\date\\date-to-parts-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\date\\load-iana-time-zone.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\date\\load-iana-time-zone.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\message\\load-messages.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\message\\load-messages.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\message\\message-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\message\\message-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\number\\number-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\number\\number-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\number\\number-parser.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\number\\number-parser.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\number\\number-to-parts-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\number\\number-to-parts-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\plural\\plural-generator.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\plural\\plural-generator.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\relative-time\\relative-time-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\relative-time\\relative-time-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\api\\unit\\unit-formatter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\api\\unit\\unit-formatter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\blog-post\\2017-07-xx-1.3.0-announcement.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\blog-post\\2017-07-xx-1.3.0-announcement.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\cldr.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\cldr.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-default-locale-not-defined.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-default-locale-not-defined.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-invalid-cldr.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-invalid-cldr.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-invalid-par-type.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-invalid-par-type.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-invalid-par-value.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-invalid-par-value.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-missing-cldr.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-missing-cldr.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-missing-parameter.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-missing-parameter.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-missing-plural-module.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-missing-plural-module.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-par-missing-key.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-par-missing-key.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-par-out-of-range.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-par-out-of-range.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\error\\e-unsupported.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\error\\e-unsupported.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\doc\\migrating-from-0.x.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\doc\\migrating-from-0.x.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\amd-bower\\.bowerrc",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\amd-bower\\.bowerrc"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\amd-bower\\.npmignore",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\amd-bower\\.npmignore"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\amd-bower\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\amd-bower\\README.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\amd-bower\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\amd-bower\\bower.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\amd-bower\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\amd-bower\\index.html"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\amd-bower\\main.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\amd-bower\\main.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\amd-bower\\messages\\en.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\amd-bower\\messages\\en.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\amd-bower\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\amd-bower\\package.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\.npmignore",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\.npmignore"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\README.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\app\\index.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\app\\index.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\index-template.html",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\index-template.html"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\ar.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\ar.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\de.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\de.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\en.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\en.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\es.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\es.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\pt.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\pt.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\ru.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\ru.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\zh.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\messages\\zh.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\package.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\webpack-config.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\app-npm-webpack\\webpack-config.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\globalize-compiler\\.npmignore",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\globalize-compiler\\.npmignore"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\globalize-compiler\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\globalize-compiler\\README.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\globalize-compiler\\app.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\globalize-compiler\\app.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\globalize-compiler\\development.html",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\globalize-compiler\\development.html"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\globalize-compiler\\messages.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\globalize-compiler\\messages.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\globalize-compiler\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\globalize-compiler\\package.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\globalize-compiler\\production.html",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\globalize-compiler\\production.html"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\node-npm\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\node-npm\\README.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\node-npm\\main.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\node-npm\\main.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\node-npm\\messages\\en.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\node-npm\\messages\\en.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\node-npm\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\node-npm\\package.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\plain-javascript\\.npmignore",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\plain-javascript\\.npmignore"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\plain-javascript\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\plain-javascript\\README.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\examples\\plain-javascript\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\examples\\plain-javascript\\index.html"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\globalize\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\globalize\\package.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\.npmignore",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\.npmignore"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\.travis.yml",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\.travis.yml"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\README.md"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\bower.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\gulpfile.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\jquery.validate.globalize.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\jquery.validate.globalize.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\jquery.validate.globalize.min.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\jquery.validate.globalize.min.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\jquery.validate.globalize.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\jquery.validate.globalize.min.js.map"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js.map"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nupkg",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nupkg"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nuspec",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nuspec"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nupkg",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nupkg"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nuspec",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nuspec"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\package.json"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\test\\fakes.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\test\\fakes.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\test\\qunit\\qunit.css",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\test\\qunit\\qunit.css"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\test\\qunit\\qunit.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\test\\qunit\\qunit.js"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\test\\tests.html",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\test\\tests.html"
+    },
+    {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\lib\\Í%\\jquery-validation-globalize\\test\\tests.js",
+      "PackagePath": "staticwebassets\\lib\\Í%\\jquery-validation-globalize\\test\\tests.js"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AnimeShopping.Web.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

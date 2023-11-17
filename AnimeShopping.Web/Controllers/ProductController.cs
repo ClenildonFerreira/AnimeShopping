@@ -1,4 +1,7 @@
-﻿using AnimeShopping.Web.Services.IServices;
+﻿using AnimeShopping.Web.Models;
+using AnimeShopping.Web.Services.IServices;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AnimeShopping.Web.Controllers
@@ -18,5 +21,50 @@ namespace AnimeShopping.Web.Controllers
 
             return View(products);
         }
+
+        public async Task<IActionResult> ProductCreate()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        //[Authorize]
+        public async Task<IActionResult> ProductCreate(ProductModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                //var token = await HttpContext.GetTokenAsync("access_token");
+                var response = await _productService.CreateProduct(model);
+                if (response != null)
+                    return RedirectToAction(nameof(ProductIndex));
+            }
+
+            return View(model);
+        }
+
+        public async Task<IActionResult> ProductUpdate(int id)
+        {
+            //var token = await HttpContext.GetTokenAsync("access_token");
+            var product = await _productService.FindProductById(id);
+            if (product != null)
+                return View(product);
+            return NotFound();
+        }
+
+        [HttpPost]
+        //[Authorize]
+        public async Task<IActionResult> ProductUpdate(ProductModel model)
+        {
+            if (ModelState.IsValid)
+            {
+               // var token = await HttpContext.GetTokenAsync("access_token");
+                var response = await _productService.UpdateProduct(model);
+                if (response != null)
+                    return RedirectToAction(nameof(ProductIndex));
+            }
+
+            return View(model);
+        }
+
     }
 }
