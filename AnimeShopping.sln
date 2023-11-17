@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{85B3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimeShopping.Web", "AnimeShopping.Web\AnimeShopping.Web.csproj", "{0DAEE850-FC5B-4E82-A617-A7F8F16B6F5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeShopping.ProductAPI", "AnimeShopping.ProductAPI\AnimeShopping.ProductAPI.csproj", "{8A5EB86F-6FD1-4B54-AD62-6FBBC64EB2E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimeShopping.ProductAPI", "AnimeShopping.ProductAPI\AnimeShopping.ProductAPI.csproj", "{8A5EB86F-6FD1-4B54-AD62-6FBBC64EB2E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
