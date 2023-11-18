@@ -1,7 +1,6 @@
 ﻿using AnimeShopping.Web.Models;
 using AnimeShopping.Web.Services.IServices;
 using AnimeShopping.Web.Utils;
-using System.Net.Http.Headers;
 
 namespace AnimeShopping.Web.Services
 {

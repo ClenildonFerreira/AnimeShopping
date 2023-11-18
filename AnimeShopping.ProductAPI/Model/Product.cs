@@ -13,7 +13,7 @@ namespace AnimeShopping.ProductAPI.Model
 
         [Column("price")]
         [Required]
-        [Range(1, 10000)]
+        [Range(1, 10000), DataType(DataType.Currency)]
         public decimal Price { get; set; }
 
         [Column("description")]

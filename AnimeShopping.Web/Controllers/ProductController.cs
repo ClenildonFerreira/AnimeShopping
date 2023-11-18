@@ -3,6 +3,7 @@ using AnimeShopping.Web.Services.IServices;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace AnimeShopping.Web.Controllers
 {
@@ -66,5 +67,26 @@ namespace AnimeShopping.Web.Controllers
             return View(model);
         }
 
+        //[Authorize]
+        public async Task<IActionResult> ProductDelete(int id)
+        {
+            //var token = await HttpContext.GetTokenAsync("access_token");
+            var product = await _productService.FindProductById(id);
+            if (product != null)
+                return View(product);
+            return NotFound();
+        }
+
+        [HttpPost]
+        //[Authorize(Roles = Role.Admin)]
+        public async Task<IActionResult> ProductDelete(ProductModel model)
+        {
+            //var token = await HttpContext.GetTokenAsync("access_token");
+            var response = await _productService.DeleteProductById(model.Id);
+            if (response)
+                return RedirectToAction(nameof(ProductIndex));
+
+            return View(model);
+        }
     }
 }
