@@ -1,5 +1,6 @@
 ﻿using AnimeShopping.ProductAPI.Data.ValueObjects;
 using AnimeShopping.ProductAPI.Repository;
+using AnimeShopping.ProductAPI.Utils;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
@@ -18,6 +19,7 @@ namespace AnimeShopping.ProductAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<ProductVO>>> FindAll()
         {
             var products = await _repository.FindAll();
@@ -25,7 +27,7 @@ namespace AnimeShopping.ProductAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<ProductVO>> FindById(long id)
         {
             var product = await _repository.FindById(id);
@@ -36,7 +38,7 @@ namespace AnimeShopping.ProductAPI.Controllers
         }
 
         [HttpPost]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<ProductVO>> Create([FromBody] ProductVO vo)
         {
             if (vo == null)
@@ -47,7 +49,7 @@ namespace AnimeShopping.ProductAPI.Controllers
         }
 
         [HttpPut]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<ProductVO>> Update([FromBody] ProductVO vo)
         {
             if (vo == null)
@@ -58,7 +60,7 @@ namespace AnimeShopping.ProductAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-       //[Authorize(Roles = Role.Admin)]
+        [Authorize(Roles = Role.Admin)]
         public async Task<ActionResult> Delete(long id)
         {
             var status = await _repository.Delete(id);

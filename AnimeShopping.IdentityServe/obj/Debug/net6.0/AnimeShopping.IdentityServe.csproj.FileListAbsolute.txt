@@ -84,3 +84,5 @@ C:\developer\projects\AnimeShopping\AnimeShopping.IdentityServe\bin\Debug\net6.0
 C:\developer\projects\AnimeShopping\AnimeShopping.IdentityServe\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\developer\projects\AnimeShopping\AnimeShopping.IdentityServe\bin\Debug\net6.0\System.Text.Json.dll
 C:\developer\projects\AnimeShopping\AnimeShopping.IdentityServe\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.IdentityServe\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.IdentityServe\bin\Debug\net6.0\keys\is-signing-key-2330E0B2B176746730CEC042EA23D857.json

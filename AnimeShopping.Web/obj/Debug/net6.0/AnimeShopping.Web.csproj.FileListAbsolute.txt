@@ -28,3 +28,14 @@ C:\developer\projects\AnimeShopping\AnimeShopping.Web\obj\Debug\net6.0\refint\An
 C:\developer\projects\AnimeShopping\AnimeShopping.Web\obj\Debug\net6.0\AnimeShopping.Web.pdb
 C:\developer\projects\AnimeShopping\AnimeShopping.Web\obj\Debug\net6.0\AnimeShopping.Web.genruntimeconfig.cache
 C:\developer\projects\AnimeShopping\AnimeShopping.Web\obj\Debug\net6.0\ref\AnimeShopping.Web.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\obj\Debug\net6.0\AnimeShopping.Web.csproj.AssemblyReference.cache
+C:\developer\projects\AnimeShopping\AnimeShopping.Web\obj\Debug\net6.0\AnimeShopping.Web.csproj.CopyComplete
