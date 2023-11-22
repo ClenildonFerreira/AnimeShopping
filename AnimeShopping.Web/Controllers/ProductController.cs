@@ -4,7 +4,6 @@ using AnimeShopping.Web.Utils;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
 
 namespace AnimeShopping.Web.Controllers
 {
@@ -20,7 +19,8 @@ namespace AnimeShopping.Web.Controllers
         [Authorize]
         public async Task<IActionResult> ProductIndex()
         {
-            var products = await _productService.FindAllProducts();
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var products = await _productService.FindAllProducts(token);
 
             return View(products);
         }
@@ -36,8 +36,8 @@ namespace AnimeShopping.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                //var token = await HttpContext.GetTokenAsync("access_token");
-                var response = await _productService.CreateProduct(model);
+                var token = await HttpContext.GetTokenAsync("access_token");
+                var response = await _productService.CreateProduct(model, token);
                 if (response != null)
                     return RedirectToAction(nameof(ProductIndex));
             }
@@ -47,8 +47,8 @@ namespace AnimeShopping.Web.Controllers
 
         public async Task<IActionResult> ProductUpdate(int id)
         {
-            //var token = await HttpContext.GetTokenAsync("access_token");
-            var product = await _productService.FindProductById(id);
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var product = await _productService.FindProductById(id, token);
             if (product != null)
                 return View(product);
             return NotFound();
@@ -60,8 +60,8 @@ namespace AnimeShopping.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-               // var token = await HttpContext.GetTokenAsync("access_token");
-                var response = await _productService.UpdateProduct(model);
+                var token = await HttpContext.GetTokenAsync("access_token");
+                var response = await _productService.UpdateProduct(model, token);
                 if (response != null)
                     return RedirectToAction(nameof(ProductIndex));
             }
@@ -72,8 +72,8 @@ namespace AnimeShopping.Web.Controllers
         [Authorize]
         public async Task<IActionResult> ProductDelete(int id)
         {
-            //var token = await HttpContext.GetTokenAsync("access_token");
-            var product = await _productService.FindProductById(id);
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var product = await _productService.FindProductById(id, token);
             if (product != null)
                 return View(product);
             return NotFound();
@@ -83,8 +83,8 @@ namespace AnimeShopping.Web.Controllers
         [Authorize(Roles = Role.Admin)]
         public async Task<IActionResult> ProductDelete(ProductModel model)
         {
-            //var token = await HttpContext.GetTokenAsync("access_token");
-            var response = await _productService.DeleteProductById(model.Id);
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var response = await _productService.DeleteProductById(model.Id, token);
             if (response)
                 return RedirectToAction(nameof(ProductIndex));
 

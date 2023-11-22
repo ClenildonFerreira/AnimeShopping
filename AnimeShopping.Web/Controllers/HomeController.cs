@@ -1,4 +1,5 @@
 ﻿using AnimeShopping.Web.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -33,6 +34,8 @@ namespace AnimeShopping.Web.Controllers
         [Authorize]
         public async Task<IActionResult> Login()
         {
+            var token = await HttpContext.GetTokenAsync("access_token");
+            //var model = await _productService.FindProductById(id, token);
             return RedirectToAction(nameof(Index));
         }
 
