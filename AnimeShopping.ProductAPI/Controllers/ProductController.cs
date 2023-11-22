@@ -3,7 +3,6 @@ using AnimeShopping.ProductAPI.Repository;
 using AnimeShopping.ProductAPI.Utils;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
 
 namespace AnimeShopping.ProductAPI.Controllers
 {
@@ -19,7 +18,6 @@ namespace AnimeShopping.ProductAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public async Task<ActionResult<IEnumerable<ProductVO>>> FindAll()
         {
             var products = await _repository.FindAll();
