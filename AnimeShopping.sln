@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimeShopping.IdentityServe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeShopping.CartAPI", "AnimeShopping.CartAPI\AnimeShopping.CartAPI.csproj", "{CB8FCE09-45B2-46AF-99E6-38859FCEDFB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeShopping.CouponAPI", "AnimeShopping.CouponAPI\AnimeShopping.CouponAPI.csproj", "{449B803E-629F-4CD7-B2E6-AD76B222CB43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{CB8FCE09-45B2-46AF-99E6-38859FCEDFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB8FCE09-45B2-46AF-99E6-38859FCEDFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB8FCE09-45B2-46AF-99E6-38859FCEDFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449B803E-629F-4CD7-B2E6-AD76B222CB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449B803E-629F-4CD7-B2E6-AD76B222CB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449B803E-629F-4CD7-B2E6-AD76B222CB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449B803E-629F-4CD7-B2E6-AD76B222CB43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{8A5EB86F-6FD1-4B54-AD62-6FBBC64EB2E5} = {85B3A118-64F5-44A2-998D-FFAC78E48D3C}
 		{521BA3F4-2CA6-4521-977D-381C5BC25786} = {85B3A118-64F5-44A2-998D-FFAC78E48D3C}
 		{CB8FCE09-45B2-46AF-99E6-38859FCEDFB4} = {85B3A118-64F5-44A2-998D-FFAC78E48D3C}
+		{449B803E-629F-4CD7-B2E6-AD76B222CB43} = {85B3A118-64F5-44A2-998D-FFAC78E48D3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BE6E0AC-38FD-46CE-BF44-1F097E924BAC}
