@@ -10,8 +10,9 @@ namespace AnimeShopping.ProductAPI.Config
         {
             var mappingConfig = new MapperConfiguration(config =>
             {
-                config.CreateMap<ProductVO, Product>();
-                config.CreateMap<Product, ProductVO>();
+                config.CreateMap<ProductVO, Product>().ReverseMap();
+                //config.CreateMap<ProductVO, Product>();
+                //config.CreateMap<Product, ProductVO>();
             });
             return mappingConfig;
         }

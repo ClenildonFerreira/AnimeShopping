@@ -8,49 +8,18 @@ namespace AnimeShopping.CartAPI.Repository
 {
     public class CartRepository : ICartRepository
     {
-        private readonly MySQLContext _context;
+        private readonly MySqlContext _context;
         private IMapper _mapper;
 
-        public CartRepository(MySQLContext context, IMapper mapper)
+        public CartRepository(MySqlContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task<bool> ApplyCoupon(string userId, string couponCode)
+        public Task<bool> ApplyCoupon(string userId, string couponCode)
         {
-            var header = await _context.CartHeaders
-               .FirstOrDefaultAsync(c => c.UserId == userId);
-
-            if (header != null)
-            {
-                header.CouponCode = couponCode;
-                _context.CartHeaders.Update(header);
-
-                await _context.SaveChangesAsync();
-
-                return true;
-            }
-
-            return false;
-        }
-
-        public async Task<bool> RemoveCoupon(string userId)
-        {
-            var header = await _context.CartHeaders
-                .FirstOrDefaultAsync(c => c.UserId == userId);
-
-            if (header != null)
-            {
-                header.CouponCode = "";
-                _context.CartHeaders.Update(header);
-
-                await _context.SaveChangesAsync();
-
-                return true;
-            }
-
-            return false;
+            throw new NotImplementedException();
         }
 
         public async Task<bool> ClearCart(string userId)
@@ -78,8 +47,8 @@ namespace AnimeShopping.CartAPI.Repository
             Cart cart = new Cart()
             {
                 CartHeader = await _context.CartHeaders.FirstOrDefaultAsync(
-                        c => c.UserId == userId
-                    ) ?? new CartHeader()
+                       c => c.UserId == userId
+                   ) ?? new CartHeader()
             };
 
             cart.CartDetails = _context.CartDetails
@@ -87,6 +56,11 @@ namespace AnimeShopping.CartAPI.Repository
                 .Include(c => c.Product);
 
             return _mapper.Map<CartVO>(cart);
+        }
+
+        public Task<bool> RemoveCoupon(string userId)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<bool> RemoveFromCart(long cartDetailsId)
@@ -118,11 +92,12 @@ namespace AnimeShopping.CartAPI.Repository
             }
         }
 
-        public async Task<CartVO> SaveOrUpdateCart(CartVO cartVO)
+        public async Task<CartVO> SaveOrUpdateCart(CartVO vo)
         {
-            Cart cart = _mapper.Map<Cart>(cartVO);
+            Cart cart = _mapper.Map<Cart>(vo);
+            // Check if the product is already saved in database if it does not exist then save
             var product = await _context.Products.FirstOrDefaultAsync(
-                    p => p.Id == cartVO.CartDetails.FirstOrDefault().ProductId
+                    p => p.Id == vo.CartDetails.FirstOrDefault().ProductId
                 );
 
             if (product == null)
@@ -130,6 +105,8 @@ namespace AnimeShopping.CartAPI.Repository
                 _context.Products.Add(cart.CartDetails.FirstOrDefault().Product);
                 await _context.SaveChangesAsync();
             }
+
+            // check if CartHeader is null
 
             var cartHeader = await _context.CartHeaders.AsNoTracking().FirstOrDefaultAsync(
                     c => c.UserId == cart.CartHeader.UserId
@@ -147,6 +124,8 @@ namespace AnimeShopping.CartAPI.Repository
             }
             else
             {
+                // If CardHeader is not null
+                // Check if CartDetails has same product 
                 var cartDetail = await _context.CartDetails.AsNoTracking().FirstOrDefaultAsync(
                         p => p.ProductId == cart.CartDetails.FirstOrDefault().ProductId &&
                         p.CartHeaderId == cartHeader.Id
@@ -154,6 +133,7 @@ namespace AnimeShopping.CartAPI.Repository
 
                 if (cartDetail == null)
                 {
+                    // Create CartDetails
                     cart.CartDetails.FirstOrDefault().CartHeaderId = cartHeader.Id;
                     cart.CartDetails.FirstOrDefault().Product = null;
 
@@ -162,6 +142,7 @@ namespace AnimeShopping.CartAPI.Repository
                 }
                 else
                 {
+                    // Upadate product count and CartDetails
                     cart.CartDetails.FirstOrDefault().Product = null;
                     cart.CartDetails.FirstOrDefault().Count += cartDetail.Count;
                     cart.CartDetails.FirstOrDefault().Id = cartDetail.Id;

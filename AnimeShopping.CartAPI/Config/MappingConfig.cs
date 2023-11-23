@@ -15,6 +15,7 @@ namespace AnimeShopping.CartAPI.Config
                 config.CreateMap<CartDetailVO, CartDetail>().ReverseMap();
                 config.CreateMap<CartVO, Cart>().ReverseMap();
             });
+
             return mappingConfig;
         }
     }

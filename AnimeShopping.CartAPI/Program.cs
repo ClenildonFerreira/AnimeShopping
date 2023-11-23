@@ -9,9 +9,9 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connection = builder.Configuration["MySqlConnection:MySqlConnectionString"];
+var connection = builder.Configuration["MySqlConnection:MysqlConnectionString"];
 
-builder.Services.AddDbContext<MySQLContext>(options => options.
+builder.Services.AddDbContext<MySqlContext>(options => options.
     UseMySql(connection,
         new MySqlServerVersion(
             new Version(8, 0, 34))));
@@ -21,15 +21,15 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<ICartRepository, CartRepository>();
-builder.Services.AddScoped<ICouponRepository, CouponRepository>();
+//builder.Services.AddScoped<ICouponRepository, CouponRepository>();
 
 //builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 
 builder.Services.AddControllers();
 
-builder.Services.AddHttpClient<ICouponRepository, CouponRepository>(
-        s => s.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CouponAPI"])
-    );
+//builder.Services.AddHttpClient<ICouponRepository, CouponRepository>(
+//        s => s.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CouponAPI"])
+//    );
 
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>
@@ -46,12 +46,14 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("ApiScope", policy =>
     {
         policy.RequireAuthenticatedUser();
-        policy.RequireClaim("scope", "anime_shopping");
+        policy.RequireClaim("scope", "geek_shopping");
     });
 });
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen( c =>
+
+builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "AnimeShopping.CartAPI", Version = "v1" });
     c.EnableAnnotations();
@@ -63,7 +65,6 @@ builder.Services.AddSwaggerGen( c =>
         Type = SecuritySchemeType.ApiKey,
         Scheme = "Bearer"
     });
-
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
@@ -80,7 +81,7 @@ builder.Services.AddSwaggerGen( c =>
             },
             new List<string> ()
         }
-     });
+    });
 });
 
 var app = builder.Build();
