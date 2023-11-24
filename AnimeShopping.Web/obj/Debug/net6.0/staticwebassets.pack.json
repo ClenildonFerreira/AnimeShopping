@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\favicon.png"
     },
     {
+      "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\images\\order.png",
+      "PackagePath": "staticwebassets\\images\\order.png"
+    },
+    {
       "Id": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

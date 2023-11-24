@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eiR1hsuU4SzMVeC+Nxz3if38UeJMo9eIAteT4+XYepo=",
+  "Hash": "vv2vwWhlfA7fOtSpmTODuENat5KhTUZbW0O2qR6U618=",
   "Source": "AnimeShopping.Web",
   "BasePath": "_content/AnimeShopping.Web",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\favicon.png"
+    },
+    {
+      "Identity": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\images\\order.png",
+      "SourceId": "AnimeShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\",
+      "BasePath": "_content/AnimeShopping.Web",
+      "RelativePath": "images/order.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.png"
     },
     {
       "Identity": "C:\\developer\\projects\\AnimeShopping\\AnimeShopping.Web\\wwwroot\\js\\site.js",

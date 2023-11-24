@@ -1,5 +1,7 @@
 ﻿using AnimeShopping.CartAPI.Data.ValueObjects;
+using AnimeShopping.CartAPI.Messages;
 using AnimeShopping.CartAPI.Repository;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AnimeShopping.CartAPI.Controllers
@@ -9,10 +11,12 @@ namespace AnimeShopping.CartAPI.Controllers
     public class CartController : ControllerBase
     {
         private ICartRepository _cartRepository;
+        private ICouponRepository _couponRepository;
 
-        public CartController(ICartRepository cartRepository)
+        public CartController(ICartRepository cartRepository, ICouponRepository couponRepository)
         {
             _cartRepository = cartRepository;
+            _couponRepository = couponRepository;
         }
 
         [HttpGet("find-cart/{id}")]
@@ -73,6 +77,38 @@ namespace AnimeShopping.CartAPI.Controllers
                 return NotFound();
 
             return Ok(status);
+        }
+
+        [HttpPost("checkout")]
+        public async Task<ActionResult<CheckoutHeaderVO>> Checkout(CheckoutHeaderVO model)
+        {
+            if (model?.UserId == null)
+                return BadRequest();
+
+            var cart = await _cartRepository.FindCartByUserId(model.UserId);
+            if (cart == null)
+                return NotFound();
+
+            if (!string.IsNullOrEmpty(model.CouponCode))
+            {
+                var token = await HttpContext.GetTokenAsync("access_token");
+                CouponVO coupon = await _couponRepository.GetCoupon(
+                        model.CouponCode,
+                        token
+                    );
+
+                if (model.DiscountAmount != coupon.DiscountAmount)
+                    return StatusCode(412);
+            }
+
+            model.CartDetails = cart.CartDetails;
+            model.DateTime = DateTime.Now;
+
+            //_rabbitMQMessageSender.SendMessage(model, QueueName.Checkout.GetDescription());
+
+            await _cartRepository.ClearCart(model.UserId);
+
+            return Ok(model);
         }
     }
 }
